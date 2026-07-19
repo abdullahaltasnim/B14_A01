@@ -137,6 +137,7 @@ body {
     width: 100%;
     height: 255px;
     object-fit: cover;
+    border-radius: 7px;
 }
 
 .speaker-card h6 {
@@ -155,6 +156,151 @@ body {
     margin: 0 18px 20px;
     color: #777777;
     font-size: 11px;
+}
+
+/* ///////////////////// */
+
+.pricing {
+    padding: 50px 100px 90px;
+    background-color: white;
+    font-family: "Inter", sans-serif;
+}
+.para {
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    color: #000000;
+    text-align: center;
+    line-height: 17px;
+    padding: 0 0 30px;
+}
+
+.pricing h2 {
+    margin: 0;
+    text-align: center;
+    color: #0d1b2a;
+    font-size: 42px;
+}
+
+.pricing-subtitle {
+    margin: 12px 0 50px;
+    text-align: center;
+    color: #575757;
+    font-size: 15px;
+}
+
+.pricing-cards {
+    max-width: 1000px;
+    margin: 0 auto;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.pricing-card {
+    padding: 30px 28px;
+    border: 1px solid #dddddd;
+    border-radius: 10px;
+    background-color: #ffffff;
+}
+
+.pricing-card h4 {
+    margin: 0 0 8px;
+    color: #888888;
+    font-size: 12px;
+}
+
+.pricing-card h3 {
+    margin: 0;
+    color: #0d1b2a;
+    font-size: 40px;
+}
+
+.person {
+    margin: 2px 0 20px;
+    color: #888888;
+    font-size: 12px;
+    text-align: left;
+}
+
+.pricing-card hr {
+    margin: 20px 0;
+    border: none;
+    border-top: 1px solid #e2e2e2;
+}
+
+.pricing-card ul {
+    min-height: 150px;
+    margin: 0 0 20px;
+    padding-left: 15px;
+}
+
+.pricing-card li {
+    margin-bottom: 12px;
+    color: #444444;
+    font-size: 13px;
+}
+
+.pricing-card li::marker {
+    color: #2866ee;
+}
+
+.pricing-button {
+    width: 100%;
+    padding: 12px;
+
+    border-radius: 7px;
+    background-color: white;
+
+    font-family: "Inter", sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.standard-button {
+    color: #2866ee;
+    border: 1px solid #2866ee;
+}
+
+.pro-card {
+    background-color: #0d1b2a;
+    border-color: #0d1b2a;
+}
+
+.pro-card h4 {
+    color: #8ab7ff;
+}
+
+.pro-card h3 {
+    color: white;
+}
+
+.pro-card .person {
+    color: #8793a0;
+}
+
+.pro-card li {
+    color: #d0d6dc;
+}
+
+.pro-card hr {
+    border-color: #263544;
+}
+
+.pro-button {
+    color: white;
+    background-color: #2866ee;
+    border: 1px solid #2866ee;
+}
+
+.team-card {
+    background-color: #f8f9fb;
+}
+
+.contact-button {
+    color: #0d1b2a;
+    border: 1px solid #0d1b2a;
 }
 
 
