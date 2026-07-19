@@ -50,14 +50,16 @@ body {
     height: 525px;
     overflow: hidden;
 }
+
 .banner-img {
     display: block;
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
+
 .heading {
-     font-family: "Inter", sans-serif;
+    font-family: "Inter", sans-serif;
     font-size: 54px;
     font-weight: 700;
     color: white;
@@ -165,6 +167,7 @@ body {
     background-color: white;
     font-family: "Inter", sans-serif;
 }
+
 .para {
     font-family: "Inter", sans-serif;
     font-size: 16px;
@@ -303,4 +306,65 @@ body {
     border: 1px solid #0d1b2a;
 }
 
+/* ////////////////////////////// */
 
+
+.faq-section {
+    margin: 0, 0, 20px, 0;
+    padding: 65px 80px 75px;
+
+    background-color: #dedee278;
+    font-family: "Inter", sans-serif;
+}
+
+.faq-section h2 {
+    margin: 0;
+    text-align: center;
+    color: #0d1b2a;
+    font-size: 38px;
+}
+
+.faq-description {
+    margin: 12px 0 40px;
+    text-align: center;
+    color: #666666;
+    font-size: 15px;
+}
+
+.faq-container {
+    max-width: 1000px;
+    margin: 0 auto;
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+}
+
+.faq-items {
+    padding: 20px 22px;
+    background-color: white;
+    border: 1px solid #dddddd;
+    border-radius: 8px;
+}
+
+.last-faq {
+    grid-column: 1 / 3;
+}
+
+.faq-items summary {
+    color: #0d1b2a;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.faq-items p {
+
+    color: #666666;
+    margin: 15px 0 0;
+    text-align: left;
+    font-size: 13px;
+    line-height: 1.6;
+}
+
+/* ///////////////////// */
