@@ -368,3 +368,37 @@ body {
 }
 
 /* ///////////////////// */
+.footer {
+    padding: 25px 160px;
+    background-color: #0D1B2A;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Inter", sans-serif;
+    max-width: 1250px;
+    /* margin: auto; */
+}
+
+.footer p {
+    margin: 0;
+    color: rgb(155, 154, 154);
+    font-size: 12px;
+}
+
+.footer-links {
+    display: flex;
+    gap: 25px;
+    list-style: none;
+}
+
+.footer-links a {
+    color: rgb(155, 154, 154);
+    text-decoration: none;
+    font-size: 12px;
+}
+
+
+
+
+
